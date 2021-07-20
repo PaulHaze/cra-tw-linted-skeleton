@@ -30,7 +30,7 @@
     @apply mt-0 text-lg font-normal leading-normal text-gray-800;
   }
   p {
-    @apply mt-0 text-sm font-normal leading-normal text-gray-700;
+    @apply mt-0 text-sm font-normal leading-normal text-gray-800;
   }
   a {
     @apply text-blue-600;
