@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Home } from './views';
+import { BrowserRouter as Router } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+
+import { MainLayout } from './layouts/MainLayout';
 import './css/main.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Router>
+      <MainLayout />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root'),
 );
